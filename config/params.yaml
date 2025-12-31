@@ -1,0 +1,20 @@
+# Configuration parameters for flight delay analysis pipeline
+
+on_time_threshold_min: 15
+prediction_moment: "scheduled"  # or "at_departure" if you allow DepDelay as feature
+min_group_volume: 10000
+
+winsorize: true
+winsor_q_low: 0.005
+winsor_q_high: 0.995
+
+train_months: [1,2,3,4,5,6,7,8,9]
+test_months: [10,11,12]
+
+seed: 42
+models: ["logreg", "lightgbm"]
+
+# plotting/export
+plotly_template: "plotly_white"
+export_png: true
+

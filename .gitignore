@@ -1,0 +1,220 @@
+############################################################
+
+# Raw / external data (DO NOT COMMIT)
+
+############################################################
+
+# Ignore all raw CSV inputs (your original datasets)
+
+data_raw/*.csv
+
+data_raw/**/*.csv
+
+# If someone drops other raw data formats into data_raw, ignore them too
+
+data_raw/**/*.zip
+
+data_raw/**/*.gz
+
+data_raw/**/*.bz2
+
+data_raw/**/*.7z
+
+data_raw/**/*.tar
+
+data_raw/**/*.tgz
+
+data_raw/**/*.parquet
+
+# Optional: ignore any "downloads" style folders if they appear
+
+**/downloads/
+
+**/Download/
+
+**/Downloads/
+
+############################################################
+
+# Local databases / runtime artifacts
+
+############################################################
+
+# DuckDB database file (local state; can be regenerated)
+
+db/*.duckdb
+
+db/*.db
+
+db/*.sqlite
+
+db/*.sqlite3
+
+db/*.wal
+
+db/*.shm
+
+############################################################
+
+# Python cache / build artifacts
+
+############################################################
+
+__pycache__/
+
+*.py[cod]
+
+*.pyo
+
+*.pyd
+
+*.so
+
+*.egg-info/
+
+build/
+
+dist/
+
+.eggs/
+
+.pytest_cache/
+
+.mypy_cache/
+
+.ruff_cache/
+
+.cache/
+
+############################################################
+
+# Virtual environments
+
+############################################################
+
+.venv/
+
+venv/
+
+env/
+
+ENV/
+
+############################################################
+
+# Jupyter / notebook checkpoints
+
+############################################################
+
+.ipynb_checkpoints/
+
+############################################################
+
+# Logs / temp files
+
+############################################################
+
+*.log
+
+*.tmp
+
+*.temp
+
+tmp/
+
+temp/
+
+############################################################
+
+# OS junk
+
+############################################################
+
+.DS_Store
+
+Thumbs.db
+
+ehthumbs.db
+
+Desktop.ini
+
+############################################################
+
+# IDE/editor junk (keep project readable)
+
+############################################################
+
+.vscode/
+
+.idea/
+
+*.iml
+
+*.swp
+
+*.swo
+
+*~
+
+############################################################
+
+# Keep outputs committed (IMPORTANT)
+
+############################################################
+
+# NOTE: We deliberately DO NOT ignore:
+
+# outputs/tables/ (csv/parquet/json)
+
+# outputs/viz/ (plotly json)
+
+# outputs/figures/ (png)
+
+# outputs/registry/
+
+# reports/
+
+# parquet/clean and parquet/features (if you choose to commit them later)
+
+############################################################
+
+# Optional: Parquet raw data policy
+
+############################################################
+
+# If raw parquet becomes huge, you may want to ignore it.
+
+# Uncomment these lines if needed:
+
+# parquet/raw/
+
+# parquet/raw/**
+
+############################################################
+
+# Optional: model artifacts policy
+
+############################################################
+
+# Models can be large; decide whether to commit them.
+
+# If you want NOT to commit models, uncomment:
+
+# models/
+
+# models/**
+
+############################################################
+
+# Local planning notes (do not commit)
+
+############################################################
+
+project_structure.md
+
+project_pipeline.md
+
+**/project_structure.md
+
+**/project_pipeline.md
+

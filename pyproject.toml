@@ -1,0 +1,27 @@
+[project]
+name = "flight-delay-analysis"
+version = "0.1.0"
+description = "Flight delay analysis comparing 1993 vs 2003"
+requires-python = ">=3.8"
+dependencies = [
+    "duckdb",
+    "pandas",
+    "numpy",
+    "plotly",
+    "kaleido",
+    "scikit-learn",
+    "lightgbm",
+    "pyyaml",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "ruff",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+

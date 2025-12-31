@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-31T15:46:11.585976+00:00",
+  "pipeline_version": "0.1.0",
+  "config": {
+    "on_time_threshold_min": 15,
+    "prediction_moment": "scheduled",
+    "min_group_volume": 10000,
+    "winsorize": true,
+    "winsor_q_low": 0.005,
+    "winsor_q_high": 0.995,
+    "train_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "test_months": [
+      10,
+      11,
+      12
+    ],
+    "seed": 42,
+    "models": [
+      "logreg",
+      "lightgbm"
+    ],
+    "plotly_template": "plotly_white",
+    "export_png": true
+  },
+  "raw_files": [
+    {
+      "exists": true,
+      "filename": "1993.csv",
+      "size_bytes": 490753652,
+      "sha256_hash": "ab94e2676b7b5b63a26db6636d4b2b111820509a841cdb0d456bdfdccbb73be0",
+      "modified_time": "2025-12-24T12:33:20.626455Z"
+    },
+    {
+      "exists": true,
+      "filename": "2003.csv",
+      "size_bytes": 626745242,
+      "sha256_hash": "6b917894acba9025655ccacca0aaaaef705e483ec2f3cbccdc960be611f4592b",
+      "modified_time": "2025-12-24T01:00:34.680135Z"
+    }
+  ]
+}

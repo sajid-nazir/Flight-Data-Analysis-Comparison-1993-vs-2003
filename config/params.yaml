@@ -14,6 +14,18 @@ test_months: [10,11,12]
 seed: 42
 models: ["logreg", "lightgbm"]
 
+# hyperparameter tuning
+hyperparameter_tuning: true
+tuning_trials: 10
+use_validation_set: true
+
+# model training
+force_retrain: false  # Set to true to force retraining even if models exist
+
+# interpretability
+compute_shap: true
+shap_sample_size: 1000
+
 # plotting/export
 plotly_template: "plotly_white"
 export_png: true

@@ -12,6 +12,9 @@ dependencies = [
     "scikit-learn",
     "lightgbm",
     "pyyaml",
+    "pyarrow",
+    "optuna",
+    "shap",
 ]
 
 [project.optional-dependencies]

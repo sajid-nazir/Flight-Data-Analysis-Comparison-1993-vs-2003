@@ -218,3 +218,37 @@ project_pipeline.md
 
 **/project_pipeline.md
 
+# Development notes with user feedback
+
+VISUALIZATION_FIX_PLAN.md
+
+ENHANCEMENTS_SUMMARY.md
+
+############################################################
+
+# Generated artifacts (can be regenerated)
+
+############################################################
+
+# Encoder files (generated during feature engineering)
+
+encoders/
+
+############################################################
+
+# IDE/editor specific files
+
+############################################################
+
+.cursor/
+
+############################################################
+
+# Temporary investigation scripts
+
+############################################################
+
+scripts/investigate_invalid_times.py
+
+scripts/investigate_missingness_by_quarter.py
+

@@ -1,0 +1,378 @@
+[
+  {
+    "chart_id": 1,
+    "description": "row counts by year",
+    "viz_file": "outputs/viz/audit/viz_01_row_counts_by_year.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/audit/fig_01_row_counts_by_year.png",
+    "stage": "audit",
+    "click_key": null
+  },
+  {
+    "chart_id": 2,
+    "description": "schema column presence matrix",
+    "viz_file": "outputs/viz/audit/viz_02_schema_column_presence_matrix.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/audit/fig_02_schema_column_presence_matrix.png",
+    "stage": "audit",
+    "click_key": null
+  },
+  {
+    "chart_id": 3,
+    "description": "missingness heatmap",
+    "viz_file": "outputs/viz/audit/viz_03_missingness_heatmap.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/audit/fig_03_missingness_heatmap.png",
+    "stage": "audit",
+    "click_key": null
+  },
+  {
+    "chart_id": 4,
+    "description": "cancel divert rates by year",
+    "viz_file": "outputs/viz/audit/viz_04_cancel_divert_rates_by_year.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/audit/fig_04_cancel_divert_rates_by_year.png",
+    "stage": "audit",
+    "click_key": null
+  },
+  {
+    "chart_id": 5,
+    "description": "arrdelay raw distribution 1993 vs 2003",
+    "viz_file": "outputs/viz/audit/viz_05_arrdelay_raw_distribution_1993_vs_2003.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/audit/fig_05_arrdelay_raw_distribution_1993_vs_2003.png",
+    "stage": "audit",
+    "click_key": null
+  },
+  {
+    "chart_id": 6,
+    "description": "cleaning waterfall 1993",
+    "viz_file": "outputs/viz/cleaning/viz_06_cleaning_waterfall_1993.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/cleaning/fig_06_cleaning_waterfall_1993.png",
+    "stage": "cleaning",
+    "click_key": null
+  },
+  {
+    "chart_id": 7,
+    "description": "cleaning waterfall 2003",
+    "viz_file": "outputs/viz/cleaning/viz_07_cleaning_waterfall_2003.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/cleaning/fig_07_cleaning_waterfall_2003.png",
+    "stage": "cleaning",
+    "click_key": null
+  },
+  {
+    "chart_id": 8,
+    "description": "arrdelay before after 1993",
+    "viz_file": "outputs/viz/cleaning/viz_08_arrdelay_before_after_1993.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/cleaning/fig_08_arrdelay_before_after_1993.png",
+    "stage": "cleaning",
+    "click_key": null
+  },
+  {
+    "chart_id": 9,
+    "description": "arrdelay before after 2003",
+    "viz_file": "outputs/viz/cleaning/viz_09_arrdelay_before_after_2003.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/cleaning/fig_09_arrdelay_before_after_2003.png",
+    "stage": "cleaning",
+    "click_key": null
+  },
+  {
+    "chart_id": 10,
+    "description": "ontime15 raw vs clean",
+    "viz_file": "outputs/viz/cleaning/viz_10_ontime15_raw_vs_clean.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/cleaning/fig_10_ontime15_raw_vs_clean.png",
+    "stage": "cleaning",
+    "click_key": null
+  },
+  {
+    "chart_id": 11,
+    "description": "kpi panel 1993 vs 2003",
+    "viz_file": "outputs/viz/eda/viz_11_kpi_panel_1993_vs_2003.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/eda/fig_11_kpi_panel_1993_vs_2003.png",
+    "stage": "eda",
+    "click_key": null
+  },
+  {
+    "chart_id": 12,
+    "description": "ontime by month 1993 vs 2003",
+    "viz_file": "outputs/viz/eda/viz_12_ontime_by_month_1993_vs_2003.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/eda/fig_12_ontime_by_month_1993_vs_2003.png",
+    "stage": "eda",
+    "click_key": null
+  },
+  {
+    "chart_id": 13,
+    "description": "ontime by dow 1993 vs 2003",
+    "viz_file": "outputs/viz/eda/viz_13_ontime_by_dow_1993_vs_2003.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/eda/fig_13_ontime_by_dow_1993_vs_2003.png",
+    "stage": "eda",
+    "click_key": null
+  },
+  {
+    "chart_id": 14,
+    "description": "ontime by dep hour 1993 vs 2003",
+    "viz_file": "outputs/viz/eda/viz_14_ontime_by_dep_hour_1993_vs_2003.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/eda/fig_14_ontime_by_dep_hour_1993_vs_2003.png",
+    "stage": "eda",
+    "click_key": null
+  },
+  {
+    "chart_id": 15,
+    "description": "top10 carriers 1993",
+    "viz_file": "outputs/viz/eda/viz_15_top10_carriers_1993.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/eda/fig_15_top10_carriers_1993.png",
+    "stage": "eda",
+    "click_key": "carrier"
+  },
+  {
+    "chart_id": 16,
+    "description": "top10 carriers 2003",
+    "viz_file": "outputs/viz/eda/viz_16_top10_carriers_2003.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/eda/fig_16_top10_carriers_2003.png",
+    "stage": "eda",
+    "click_key": "carrier"
+  },
+  {
+    "chart_id": 17,
+    "description": "route matched comparison",
+    "viz_file": "outputs/viz/eda/viz_17_route_matched_comparison.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/eda/fig_17_route_matched_comparison.png",
+    "stage": "eda",
+    "click_key": "route"
+  },
+  {
+    "chart_id": 18,
+    "description": "airport matched comparison",
+    "viz_file": "outputs/viz/eda/viz_18_airport_matched_comparison.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/eda/fig_18_airport_matched_comparison.png",
+    "stage": "eda",
+    "click_key": "origin"
+  },
+  {
+    "chart_id": 21,
+    "description": "overall delta summary",
+    "viz_file": "outputs/viz/compare/viz_21_overall_delta_summary.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/compare/fig_21_overall_delta_summary.png",
+    "stage": "compare",
+    "click_key": null
+  },
+  {
+    "chart_id": 22,
+    "description": "delta vs volume carrier",
+    "viz_file": "outputs/viz/compare/viz_22_delta_vs_volume_carrier.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/compare/fig_22_delta_vs_volume_carrier.png",
+    "stage": "compare",
+    "click_key": "carrier"
+  },
+  {
+    "chart_id": 23,
+    "description": "dumbbell top10 carriers",
+    "viz_file": "outputs/viz/compare/viz_23_dumbbell_top10_carriers.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/compare/fig_23_dumbbell_top10_carriers.png",
+    "stage": "compare",
+    "click_key": "carrier"
+  },
+  {
+    "chart_id": 27,
+    "description": "top15 improvements declines carriers",
+    "viz_file": "outputs/viz/compare/viz_27_top15_improvements_declines_carriers.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/compare/fig_27_top15_improvements_declines_carriers.png",
+    "stage": "compare",
+    "click_key": "carrier"
+  },
+  {
+    "chart_id": 29,
+    "description": "congestion feature distributions 1993 vs 2003",
+    "viz_file": "outputs/viz/features/viz_29_congestion_feature_distributions_1993_vs_2003.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/features/fig_29_congestion_feature_distributions_1993_vs_2003.png",
+    "stage": "features",
+    "click_key": null
+  },
+  {
+    "chart_id": 30,
+    "description": "distance bins vs ontime heatmap 1993",
+    "viz_file": "outputs/viz/features/viz_30_distance_bins_vs_ontime_heatmap_1993.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/features/fig_30_distance_bins_vs_ontime_heatmap_1993.png",
+    "stage": "features",
+    "click_key": null
+  },
+  {
+    "chart_id": 31,
+    "description": "distance bins vs ontime heatmap 2003",
+    "viz_file": "outputs/viz/features/viz_31_distance_bins_vs_ontime_heatmap_2003.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/features/fig_31_distance_bins_vs_ontime_heatmap_2003.png",
+    "stage": "features",
+    "click_key": null
+  },
+  {
+    "chart_id": 34,
+    "description": "roc within year 1993 logreg",
+    "viz_file": "outputs/viz/model/viz_34_roc_within_year_1993_logreg.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/model/fig_34_roc_within_year_1993_logreg.png",
+    "stage": "model",
+    "click_key": null
+  },
+  {
+    "chart_id": 35,
+    "description": "pr within year 1993 logreg",
+    "viz_file": "outputs/viz/model/viz_35_pr_within_year_1993_logreg.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/model/fig_35_pr_within_year_1993_logreg.png",
+    "stage": "model",
+    "click_key": null
+  },
+  {
+    "chart_id": 35,
+    "description": "roc within year 1993 lightgbm",
+    "viz_file": "outputs/viz/model/viz_35_roc_within_year_1993_lightgbm.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/model/fig_35_roc_within_year_1993_lightgbm.png",
+    "stage": "model",
+    "click_key": null
+  },
+  {
+    "chart_id": 36,
+    "description": "calibration within year 1993 logreg",
+    "viz_file": "outputs/viz/model/viz_36_calibration_within_year_1993_logreg.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/model/fig_36_calibration_within_year_1993_logreg.png",
+    "stage": "model",
+    "click_key": null
+  },
+  {
+    "chart_id": 36,
+    "description": "pr within year 1993 lightgbm",
+    "viz_file": "outputs/viz/model/viz_36_pr_within_year_1993_lightgbm.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/model/fig_36_pr_within_year_1993_lightgbm.png",
+    "stage": "model",
+    "click_key": null
+  },
+  {
+    "chart_id": 37,
+    "description": "calibration within year 1993 lightgbm",
+    "viz_file": "outputs/viz/model/viz_37_calibration_within_year_1993_lightgbm.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/model/fig_37_calibration_within_year_1993_lightgbm.png",
+    "stage": "model",
+    "click_key": null
+  },
+  {
+    "chart_id": 38,
+    "description": "roc within year 2003 logreg",
+    "viz_file": "outputs/viz/model/viz_38_roc_within_year_2003_logreg.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/model/fig_38_roc_within_year_2003_logreg.png",
+    "stage": "model",
+    "click_key": null
+  },
+  {
+    "chart_id": 39,
+    "description": "pr within year 2003 logreg",
+    "viz_file": "outputs/viz/model/viz_39_pr_within_year_2003_logreg.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/model/fig_39_pr_within_year_2003_logreg.png",
+    "stage": "model",
+    "click_key": null
+  },
+  {
+    "chart_id": 39,
+    "description": "roc within year 2003 lightgbm",
+    "viz_file": "outputs/viz/model/viz_39_roc_within_year_2003_lightgbm.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/model/fig_39_roc_within_year_2003_lightgbm.png",
+    "stage": "model",
+    "click_key": null
+  },
+  {
+    "chart_id": 40,
+    "description": "calibration within year 2003 logreg",
+    "viz_file": "outputs/viz/model/viz_40_calibration_within_year_2003_logreg.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/model/fig_40_calibration_within_year_2003_logreg.png",
+    "stage": "model",
+    "click_key": null
+  },
+  {
+    "chart_id": 40,
+    "description": "pr within year 2003 lightgbm",
+    "viz_file": "outputs/viz/model/viz_40_pr_within_year_2003_lightgbm.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/model/fig_40_pr_within_year_2003_lightgbm.png",
+    "stage": "model",
+    "click_key": null
+  },
+  {
+    "chart_id": 41,
+    "description": "calibration within year 2003 lightgbm",
+    "viz_file": "outputs/viz/model/viz_41_calibration_within_year_2003_lightgbm.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/model/fig_41_calibration_within_year_2003_lightgbm.png",
+    "stage": "model",
+    "click_key": null
+  },
+  {
+    "chart_id": 43,
+    "description": "auc heatmap train vs test year",
+    "viz_file": "outputs/viz/model/viz_43_auc_heatmap_train_vs_test_year.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/model/fig_43_auc_heatmap_train_vs_test_year.png",
+    "stage": "model",
+    "click_key": null
+  },
+  {
+    "chart_id": 44,
+    "description": "generalization loss bars",
+    "viz_file": "outputs/viz/model/viz_44_generalization_loss_bars.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/model/fig_44_generalization_loss_bars.png",
+    "stage": "model",
+    "click_key": null
+  },
+  {
+    "chart_id": 47,
+    "description": "cross year calibration curves",
+    "viz_file": "outputs/viz/model/viz_47_cross_year_calibration_curves.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/model/fig_47_cross_year_calibration_curves.png",
+    "stage": "model",
+    "click_key": null
+  },
+  {
+    "chart_id": 48,
+    "description": "feature shift psi",
+    "viz_file": "outputs/viz/model/viz_48_feature_shift_psi.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/model/fig_48_feature_shift_psi.png",
+    "stage": "model",
+    "click_key": null
+  },
+  {
+    "chart_id": 51,
+    "description": "top15 importance gain 1993",
+    "viz_file": "outputs/viz/interpret/viz_51_top15_importance_gain_1993.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/interpret/fig_51_top15_importance_gain_1993.png",
+    "stage": "interpret",
+    "click_key": null
+  },
+  {
+    "chart_id": 52,
+    "description": "top15 importance gain 2003",
+    "viz_file": "outputs/viz/interpret/viz_52_top15_importance_gain_2003.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/interpret/fig_52_top15_importance_gain_2003.png",
+    "stage": "interpret",
+    "click_key": null
+  },
+  {
+    "chart_id": 53,
+    "description": "rank shift slope chart",
+    "viz_file": "outputs/viz/interpret/viz_53_rank_shift_slope_chart.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/interpret/fig_53_rank_shift_slope_chart.png",
+    "stage": "interpret",
+    "click_key": null
+  },
+  {
+    "chart_id": 58,
+    "description": "route network 1993",
+    "viz_file": "outputs/viz/system/viz_58_route_network_1993.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/system/fig_58_route_network_1993.png",
+    "stage": "system",
+    "click_key": "route"
+  },
+  {
+    "chart_id": 59,
+    "description": "route network 2003",
+    "viz_file": "outputs/viz/system/viz_59_route_network_2003.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/system/fig_59_route_network_2003.png",
+    "stage": "system",
+    "click_key": "route"
+  },
+  {
+    "chart_id": 60,
+    "description": "delay by dep hour 1993 vs 2003",
+    "viz_file": "outputs/viz/system/viz_60_delay_by_dep_hour_1993_vs_2003.plotly.json",
+    "png_file": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/figures/system/fig_60_delay_by_dep_hour_1993_vs_2003.png",
+    "stage": "system",
+    "click_key": null
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "carrier": {
+    "monthly": {
+      "1993": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/tables/drilldown/tbl_dd_01_carrier_monthly_1993.parquet",
+      "2003": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/tables/drilldown/tbl_dd_02_carrier_monthly_2003.parquet"
+    },
+    "dep_hour": {
+      "1993": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/tables/drilldown/tbl_dd_03_carrier_dep_hour_1993.parquet",
+      "2003": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/tables/drilldown/tbl_dd_04_carrier_dep_hour_2003.parquet"
+    },
+    "top_routes": {
+      "1993": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/tables/drilldown/tbl_dd_05_carrier_top_routes_1993.parquet",
+      "2003": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/tables/drilldown/tbl_dd_06_carrier_top_routes_2003.parquet"
+    }
+  },
+  "origin": {
+    "monthly": {
+      "1993": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/tables/drilldown/tbl_dd_07_origin_monthly_1993.parquet",
+      "2003": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/tables/drilldown/tbl_dd_08_origin_monthly_2003.parquet"
+    },
+    "dep_hour": {
+      "1993": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/tables/drilldown/tbl_dd_09_origin_dep_hour_1993.parquet",
+      "2003": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/tables/drilldown/tbl_dd_10_origin_dep_hour_2003.parquet"
+    },
+    "top_dests": {
+      "1993": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/tables/drilldown/tbl_dd_11_origin_top_dests_1993.parquet",
+      "2003": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/tables/drilldown/tbl_dd_12_origin_top_dests_2003.parquet"
+    }
+  },
+  "route": {
+    "monthly": {
+      "1993": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/tables/drilldown/tbl_dd_13_route_monthly_1993.parquet",
+      "2003": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/tables/drilldown/tbl_dd_14_route_monthly_2003.parquet"
+    },
+    "dep_hour": {
+      "1993": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/tables/drilldown/tbl_dd_15_route_dep_hour_1993.parquet",
+      "2003": "/home/sajid/Desktop/Flight-Data-Analysis-Comparison-1993-vs-2003/outputs/tables/drilldown/tbl_dd_16_route_dep_hour_2003.parquet"
+    }
+  },
+  "query_templates": {
+    "sample_rows": "SELECT * FROM read_parquet('parquet/clean/common/year={year}/**/*.parquet') WHERE {key_col} = '{key_value}' ORDER BY RANDOM() LIMIT 500",
+    "delay_histogram": "SELECT FLOOR(ArrDelay / 10) * 10 as delay_bin, COUNT(*) as count FROM read_parquet('parquet/clean/common/year={year}/**/*.parquet') WHERE {key_col} = '{key_value}' GROUP BY delay_bin ORDER BY delay_bin",
+    "worst_routes": "SELECT Origin || '_' || Dest as route, COUNT(*) as flights, AVG(ArrDelay) as avg_delay FROM read_parquet('parquet/clean/common/year={year}/**/*.parquet') WHERE {key_col} = '{key_value}' GROUP BY route HAVING COUNT(*) >= 10 ORDER BY avg_delay DESC LIMIT 10"
+  }
+}

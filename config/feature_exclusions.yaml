@@ -1,0 +1,46 @@
+# Feature Exclusions for Modeling
+# 
+# This file defines which columns should be EXCLUDED from feature engineering
+# to avoid bias, temporal confounding, or cross-year incompatibility.
+
+# Delay breakdown columns - excluded because:
+# 1. Not available in 1993 (cross-year comparison impossible)
+# 2. Only available in 50% of 2003 data (Q3-Q4 only)
+# 3. Introduces temporal/seasonal confounding
+# 4. These are known AFTER flight, not at prediction moment
+exclude_delay_breakdown: true
+delay_breakdown_columns:
+  - CarrierDelay
+  - WeatherDelay
+  - NASDelay
+  - SecurityDelay
+  - LateAircraftDelay
+  - CancellationCode
+
+# Optional: exclude has_delay_breakdown flag
+# Set to true if you want to exclude it to avoid temporal bias
+# Set to false if you want to keep it as a data quality indicator
+exclude_has_delay_breakdown_flag: true
+
+# Columns that should never be used as features (targets, IDs, etc.)
+exclude_always:
+  - ArrDelay  # This is the target (or used to derive target)
+  - DepDelay  # May be used to derive target, but not as feature at "scheduled" moment
+  - Year      # Not useful for prediction (constant within year)
+  - Cancelled # Already filtered out in cleaning
+  - Diverted  # Already filtered out in cleaning
+
+# Columns that are 100% missing in 1993 (already dropped in cleaning)
+# Listed here for reference
+excluded_in_cleaning_1993:
+  - TailNum
+  - AirTime
+  - TaxiIn
+  - TaxiOut
+  - CancellationCode
+  - CarrierDelay
+  - WeatherDelay
+  - NASDelay
+  - SecurityDelay
+  - LateAircraftDelay
+

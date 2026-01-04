@@ -1,0 +1,3 @@
+year,total_flights,cancelled_count,cancelled_pct,diverted_count,diverted_pct,cancel_codes
+1993,5070501,59845,1.18,10333,0.2,{}
+2003,6488540,101469,1.56,11381,0.18,"{'A': 22402, 'B': 16486, 'C': 13852, 'D': 186}"

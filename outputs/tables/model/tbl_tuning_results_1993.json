@@ -1,0 +1,20 @@
+{
+  "year": 1993,
+  "best_params": {
+    "num_leaves": 49,
+    "learning_rate": 0.12178968252045044,
+    "feature_fraction": 0.7985025225258578,
+    "bagging_fraction": 0.7387670774203154,
+    "bagging_freq": 5,
+    "min_child_samples": 75,
+    "max_depth": 7,
+    "objective": "binary",
+    "metric": "binary_logloss",
+    "boosting_type": "gbdt",
+    "feature_pre_filter": false,
+    "verbose": -1,
+    "random_state": 42
+  },
+  "best_validation_auc": 0.7190766441673513,
+  "n_trials": 10
+}

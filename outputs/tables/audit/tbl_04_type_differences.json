@@ -1,0 +1,42 @@
+[
+  {
+    "column": "WeatherDelay",
+    "type_1993": "VARCHAR",
+    "type_2003": "BIGINT"
+  },
+  {
+    "column": "CarrierDelay",
+    "type_1993": "VARCHAR",
+    "type_2003": "BIGINT"
+  },
+  {
+    "column": "AirTime",
+    "type_1993": "VARCHAR",
+    "type_2003": "BIGINT"
+  },
+  {
+    "column": "TaxiOut",
+    "type_1993": "VARCHAR",
+    "type_2003": "BIGINT"
+  },
+  {
+    "column": "LateAircraftDelay",
+    "type_1993": "VARCHAR",
+    "type_2003": "BIGINT"
+  },
+  {
+    "column": "SecurityDelay",
+    "type_1993": "VARCHAR",
+    "type_2003": "BIGINT"
+  },
+  {
+    "column": "TaxiIn",
+    "type_1993": "VARCHAR",
+    "type_2003": "BIGINT"
+  },
+  {
+    "column": "NASDelay",
+    "type_1993": "VARCHAR",
+    "type_2003": "BIGINT"
+  }
+]

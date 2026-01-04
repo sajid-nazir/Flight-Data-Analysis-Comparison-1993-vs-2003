@@ -1,0 +1,150 @@
+{
+  "columns": [
+    {
+      "name": "Year",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "Month",
+      "type": "INTEGER",
+      "nullable": true
+    },
+    {
+      "name": "DayofMonth",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "DayOfWeek",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "DepTime",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "CRSDepTime",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "ArrTime",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "CRSArrTime",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "UniqueCarrier",
+      "type": "VARCHAR",
+      "nullable": true
+    },
+    {
+      "name": "FlightNum",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "TailNum",
+      "type": "VARCHAR",
+      "nullable": true
+    },
+    {
+      "name": "ActualElapsedTime",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "CRSElapsedTime",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "AirTime",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "ArrDelay",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "DepDelay",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "Origin",
+      "type": "VARCHAR",
+      "nullable": true
+    },
+    {
+      "name": "Dest",
+      "type": "VARCHAR",
+      "nullable": true
+    },
+    {
+      "name": "Distance",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "TaxiIn",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "TaxiOut",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "Cancelled",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "CancellationCode",
+      "type": "VARCHAR",
+      "nullable": true
+    },
+    {
+      "name": "Diverted",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "CarrierDelay",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "WeatherDelay",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "NASDelay",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "SecurityDelay",
+      "type": "BIGINT",
+      "nullable": true
+    },
+    {
+      "name": "LateAircraftDelay",
+      "type": "BIGINT",
+      "nullable": true
+    }
+  ],
+  "column_count": 29
+}

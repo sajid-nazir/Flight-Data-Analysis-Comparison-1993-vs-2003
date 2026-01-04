@@ -1,0 +1,15 @@
+feature,rank_1993,rank_2003,rank_shift
+CRSDepTime,3.0,2.0,-1.0
+CRSElapsedTime,13.0,13.0,0.0
+DayOfWeek,4.0,4.0,0.0
+Dest_freq,8.0,8.0,0.0
+Distance,10.0,11.0,1.0
+Month,2.0,3.0,1.0
+Origin_freq,5.0,7.0,2.0
+UniqueCarrier_freq,7.0,5.0,-2.0
+dep_hour_bin_freq,6.0,6.0,0.0
+dep_hour_raw,9.0,10.0,1.0
+dest_hourly_volume,11.0,9.0,-2.0
+distance_bin_freq,14.0,14.0,0.0
+origin_hourly_volume,12.0,12.0,0.0
+route_freq,1.0,1.0,0.0

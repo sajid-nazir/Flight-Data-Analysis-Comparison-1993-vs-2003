@@ -1,0 +1,15 @@
+year,step,row_count,rows_removed,pct_removed
+1993,initial,5070501,0,0.0
+1993,Remove Invalid Times,5070501,0,0.0
+1993,Remove Cancelled,5010656,59845,1.18
+1993,Remove Diverted,5000323,10333,0.21
+1993,Remove Missing ArrDelay + Low Missingness,4993587,6736,0.13
+1993,Remove Extreme ArrDelay,4975929,17658,0.35
+1993,Final (after winsorization),4975929,0,0.0
+2003,initial,6488540,0,0.0
+2003,Remove Invalid Times,6484749,3791,0.06
+2003,Remove Cancelled,6383280,101469,1.56
+2003,Remove Diverted,6371905,11375,0.18
+2003,Remove Missing ArrDelay + Low Missingness,6371904,1,0.0
+2003,Remove Extreme ArrDelay,6331131,40773,0.64
+2003,Final (after winsorization),6331131,0,0.0

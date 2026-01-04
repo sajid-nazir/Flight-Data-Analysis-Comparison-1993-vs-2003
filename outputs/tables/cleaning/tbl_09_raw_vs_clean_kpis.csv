@@ -1,0 +1,5 @@
+year,dataset,total_flights,avg_arrdelay,median_arrdelay,ontime15_pct
+1993,raw,5000323,5.34,,83.89
+1993,clean,4975929,4.62,,84.18
+2003,raw,6375689,3.6,-3.0,84.23
+2003,clean,6331131,2.15,-3.0,84.79
